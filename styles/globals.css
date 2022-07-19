@@ -1,16 +1,31 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container {
+	box-shadow: -8px 8px 58px 0px rgba(0, 0, 0, 0.1);
+}
+.card {
+	transition: height 0.5s ease-in-out;
+	will-change: height;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+.card-text {
+	min-width: 236px;
+	min-height: 350px;
 }
 
-* {
-  box-sizing: border-box;
+h4 {
+	display: flex;
+	justify-content: center;
+}
+
+ul {
+	padding-left: 0px;
+}
+
+.li-content {
+	border-radius: 4px;
+	margin: 14px;
+	padding: 10px;
 }

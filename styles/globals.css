@@ -10,22 +10,11 @@
 	will-change: height;
 }
 
-.card-text {
-	min-width: 236px;
-	min-height: 350px;
-}
-
-h4 {
-	display: flex;
-	justify-content: center;
-}
-
 ul {
 	padding-left: 0px;
 }
 
 .li-content {
 	border-radius: 4px;
-	margin: 14px;
-	padding: 10px;
+	box-shadow: rgba(125, 125, 128, 0.25) 0px 6px 10px -2px;
 }
